@@ -56,11 +56,20 @@
   cursor: pointer;
   transition: 0.5s
 }
+.ripple {
+  background-position: center;
+  transition: background 0.5s;
+}
 
-.quest:hover {
-  background-color: #7082c0;
-  border: none;
-  box-shadow: 2px 2px 20px #f5f5f58e;
+@media (min-width: 980px) {
+  .ripple:hover {
+    background: black radial-gradient(circle, transparent 1%, black 1%) center/15000%;
+  }
+}
+.ripple:active {
+  background-color: #095068;
+  background-size: 100%;
+  transition: background 0s;
 }
 
 /* Confirmation Dialog */

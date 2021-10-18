@@ -117,7 +117,7 @@ export default function App () {
       <div className="quest-options">
           {copyPnt.opt.map((pointer, index) => {
               return (
-                  <div className="col quest" key={index}
+                  <div className="col quest ripple" key={index}
                       onClick={() => power(index+1, copyPnt.check)}
                   >
                       <h3>{pointer.option}</h3>
