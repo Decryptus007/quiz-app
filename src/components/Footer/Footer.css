@@ -1,0 +1,23 @@
+.footer {
+    background-color: lavender;
+    margin-top: 3rem;
+    color: tomato;
+    font-size: small;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: 5px 10px 15px #3a3838a8 inset;
+    padding: 1% 0.5%;
+    width: auto;
+    height: fit-content;
+}
+
+.footer code,
+.footer a {
+    background-color: black;
+    color: wheat;
+    padding: 0.2rem;
+    border-radius: 1.2rem;
+}
+
+.footer a {
+    text-decoration: none;
+}

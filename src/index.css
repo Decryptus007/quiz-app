@@ -5,9 +5,164 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1b2546;
+  box-sizing: border-box;
+  position: relative;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.loader {
+  font-size: 10px;
+  margin: 50px auto;
+  text-indent: -9999em;
+  width: 11em;
+  height: 11em;
+  border-radius: 50%;
+  background: #ffffff;
+  background: -moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loader:before {
+  width: 50%;
+  height: 50%;
+  background: #ffffff;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.loader:after {
+  background: #1b2546;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.confetti {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  animation: confetti 4s ease-in-out -2s infinite;
+  transform-origin: left top;
+}
+.confetti:nth-child(1) {
+  background-color: black; left: 10%; animation-delay: 0;
+}
+.confetti:nth-child(2) {
+  background-color: black; left: 20%; animation-delay: -5s;
+}
+.confetti:nth-child(3) {
+  background-color: black; left: 30%; animation-delay: -3s;
+}
+.confetti:nth-child(4) {
+  background-color: black; left: 40%; animation-delay: -2.5s;
+}
+.confetti:nth-child(5) {
+  background-color: black; left: 50%; animation-delay: -4s;
+}
+.confetti:nth-child(6) {
+  background-color: black; left: 60%; animation-delay: -6s;
+}
+.confetti:nth-child(7) {
+  background-color: black; left: 70%; animation-delay: -1.5s;
+}
+.confetti:nth-child(8) {
+  background-color: black; left: 80%; animation-delay: -2s;
+}
+.confetti:nth-child(9) {
+  background-color: black; left: 90%; animation-delay: -3.5s;
+}
+.confetti:nth-child(10) {
+  background-color: black; left: 100%; animation-delay: -2.5s;
+}
+
+.confet {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  position: absolute;
+  right: 50%;
+  animation: confetti 4.5s ease-in-out -2s infinite;
+  transform-origin: right top;
+}
+.confetti:nth-child(1) {
+  background-color: black; right: 10%; animation-delay: 0;
+}
+.confetti:nth-child(2) {
+  background-color: black; right: 20%; animation-delay: -5s;
+}
+.confetti:nth-child(3) {
+  background-color: black; right: 30%; animation-delay: -3s;
+}
+.confetti:nth-child(4) {
+  background-color: black; right: 40%; animation-delay: -2.5s;
+}
+.confetti:nth-child(5) {
+  background-color: black; right: 50%; animation-delay: -4s;
+}
+.confetti:nth-child(6) {
+  background-color: black; right: 60%; animation-delay: -6s;
+}
+.confetti:nth-child(7) {
+  background-color: black; right: 70%; animation-delay: -1.5s;
+}
+.confetti:nth-child(8) {
+  background-color: black; right: 80%; animation-delay: -2s;
+}
+.confetti:nth-child(9) {
+  background-color: black; right: 90%; animation-delay: -3.5s;
+}
+.confetti:nth-child(10) {
+  background-color: black; right: 100%; animation-delay: -2.5s;
+}
+
+@keyframes confetti {
+  0% { transform: rotateZ(15deg) rotateY(0deg) translate(0,0); }
+  25% { transform: rotateZ(5deg) rotateY(360deg) translate(-5vw,20vh); }
+  50% { transform: rotateZ(15deg) rotateY(720deg) translate(5vw,60vh); }
+  75% { transform: rotateZ(5deg) rotateY(1080deg) translate(-10vw,80vh); }
+  100% { transform: rotateZ(15deg) rotateY(1440deg) translate(10vw,110vh); }
 }

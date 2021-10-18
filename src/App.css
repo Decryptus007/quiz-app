@@ -2,37 +2,150 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin-top: 1.5rem;
+}
+
+.App-header img{
+  width: 15%;
+}
+
+.counters {
+  color: wheat;
+  position: fixed;
+  background-color: #3f054b;
+}
+
+/* Option Styles */
+.quest-sect {
+  padding: 10px 5rem;
+  color: ivory;
+  /* background-color: #4c5a8a; */
+}
+
+.quest-head {
+  padding: 10px 15px;
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.quest-options {
+  color: ivory;
+  display: grid;
+  margin-top: 1rem;
+  padding: 1.2rem 2rem;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.col {
+  background-color: #1b2546;
+  border: 5px solid #a5a1a1d0;
+  border-radius: 3rem;
+  font-size: 14px;
+}
+
+.quest {
+  cursor: pointer;
+  transition: 0.5s
+}
+
+.quest:hover {
+  background-color: #7082c0;
+  border: none;
+  box-shadow: 2px 2px 20px #f5f5f58e;
+}
+
+/* Confirmation Dialog */
+.Modal {
+  position: absolute;
+  width: 100%;
+  height: calc(100% + 30px);
+  top: -30px;
+  left: 0;
+  background-color: #ffd447;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  transition: 0.5s;
+  animation: pop 0.5s linear;
+  animation-iteration-count: 1;
 }
 
-.App-link {
-  color: #61dafb;
+.Modal .info {
+  margin-top: -20rem;
 }
 
-@keyframes App-logo-spin {
+.Modal .info button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #2aa52a;
+  transition: 0.5s;
+  outline: none;
+}
+
+.Modal .info button:hover {
+  box-shadow: 2px 2px 16px #0d360d;
+}
+
+.counters .Modal {
+  position: absolute;
+  width: 100vw;
+  height: calc(100vh + 30px);
+  color: black;
+}
+
+@keyframes pop {
   from {
-    transform: rotate(0deg);
+    /* transform: translateY(100%); */
+    transform: scale(0, 0);
   }
   to {
-    transform: rotate(360deg);
+    /* transform: translateY(0%); */
+    transform: scale(1, 1);
+  }
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    margin: 1.2rem auto;
+  }
+  .App-header img{
+    width: 40%;
+  }
+
+  /* Option Styles */
+
+  .quest-sect {
+      padding: 1rem 0.5rem;
+  }
+
+  .quest-head {
+      padding: 1px 2px;
+      width: 100%;
+      margin: 2rem auto;
+  }
+
+  .quest-options {
+      display: grid;
+      margin-top: 0.1rem;
+      padding: 1rem 1.5rem;
+      grid-template-columns: 1fr;
+      column-gap: 1rem;
+  }
+
+  .col {
+      background-color: #1b2546;
+      border: 2px solid #a5a1a1d0;
+      border-radius: 3rem;
+      font-size: 0.6rem;
+  }
+
+  .Modal .info {
+    margin-top: 1rem;
   }
 }

@@ -1,0 +1,215 @@
+
+{
+    "questions": [
+        {
+            "question": "What does 'www' stand for in a website browser?",
+            "opt": [
+                {"option" : "Woss woss wobi"},
+                {"option" : "World wide web"},
+                {"option" : "Wex wault wall"},
+                {"option" : "World wide well"}
+            ],
+            "check": 2
+        },
+        {
+            "question": "How long is an Olympic swimming pool (in meters)?",
+            "opt": [
+                {"option" : "50 meters"},
+                {"option" : "75 meters"},
+                {"option" : "43.6 meters"},
+                {"option" : "100 meters"}
+            ],
+            "check": 1
+        },
+        {
+            "question": "What countries made up the original Axis powers in World War II?",
+            "opt": [
+                {"option" : "United Kingdom and Switzerland"},
+                {"option" : "USA, Russia and Afghanistan"},
+                {"option" : "Nigeria and Ghana"},
+                {"option" : "Germany, Italy, and Japan"}
+            ],
+            "check": 4
+        },
+        {
+            "question": "Which country do cities of Perth, Adelade & Brisbane belong to?",
+            "opt": [
+                {"option" : "Gambia"},
+                {"option" : "Japan"},
+                {"option" : "Australia"},
+                {"option" : "Thailand"}
+            ],
+            "check": 3
+        },
+        {
+            "question": "What geometric shape is generally used for stop signs?",
+            "opt": [
+                {"option" : "Octagon"},
+                {"option" : "Circle"},
+                {"option" : "Pentagon"},
+                {"option" : "Hexagon"}
+            ],
+            "check": 1
+        },
+        {
+            "question": "What is 'cynophobia'?",
+            "opt": [
+                {"option" : "Fear of Cyberworld"},
+                {"option" : "Fear of Dogs"},
+                {"option" : "Fear of Water"},
+                {"option" : "Fear of Telephone"}
+            ],
+            "check": 2
+        },
+        {
+            "question": "What punctuation mark ends an imperative sentence?",
+            "opt": [
+                {"option" : "A period or exclamation point"},
+                {"option" : "A comma"},
+                {"option" : "A semi-colon"},
+                {"option" : "A question mark or colon"}
+            ],
+            "check": 1
+        },
+        {
+            "question": "Who named the Pacific Ocean?",
+            "opt": [
+                {"option" : "Your grand-father"},
+                {"option" : "Donald Trump"},
+                {"option" : "Ferdinand Magellan"},
+                {"option" : "Pablo Escobar"}
+            ],
+            "check": 3
+        },
+        {
+            "question": "How many languages are written from right to left?",
+            "opt": [
+                {"option" : "3"},
+                {"option" : "24"},
+                {"option" : "6"},
+                {"option" : "12"}
+            ],
+            "check": 4
+        },
+        {
+            "question": "What is the name of the biggest technology company in South Korea?",
+            "opt": [
+                {"option" : "Samsung"},
+                {"option" : "Lee-Min-Ho"},
+                {"option" : "Rubber Tyre"},
+                {"option" : "FemTech"}
+            ],
+            "check": 1
+        },
+        {
+            "question": "On the farm, what is a kid?",
+            "opt": [
+                {"option" : "A tractor"},
+                {"option" : "A cow"},
+                {"option" : "A baby goat"},
+                {"option" : "A hardworking child"}
+            ],
+            "check": 3
+        },
+        {
+            "question": "Stars and Stripes” is the nickname of the flag of which country?",
+            "opt": [
+                {"option" : "Switzerland"},
+                {"option" : "United States of America"},
+                {"option" : "Ecuador"},
+                {"option" : "United Africans Republic"}
+            ],
+            "check": 2
+        },
+        {
+            "question": "How many colors are there in the rainbow?",
+            "opt": [
+                {"option" : "Nine"},
+                {"option" : "Twelve"},
+                {"option" : "Six"},
+                {"option" : "Seven"}
+            ],
+            "check": 4
+        },
+        {
+            "question": "Who was the first president of the United States?",
+            "opt": [
+                {"option" : "George Washington"},
+                {"option" : "George Bush"},
+                {"option" : "Joe Biden"},
+                {"option" : "Barrack Obama"}
+            ],
+            "check": 1
+        },
+        {
+            "question": "What country is responsible for creating the Olympic Games?",
+            "opt": [
+                {"option" : "Babylon"},
+                {"option" : "Greece"},
+                {"option" : "Egypt"},
+                {"option" : "China"}
+            ],
+            "check": 2
+        },
+        {
+            "question": "Which country invented ice cream?",
+            "opt": [
+                {"option" : "Spain"},
+                {"option" : "Italy"},
+                {"option" : "China"},
+                {"option" : "Panama"}
+            ],
+            "check": 3
+        },
+        {
+            "question": "Who discovered the source of the River Niger?",
+            "opt": [
+                {"option" : "Your village people"},
+                {"option" : "Mungo Park"},
+                {"option" : "Alafiatayo John"},
+                {"option" : "Lander Brothers"}
+            ],
+            "check": 4
+        },
+        {
+            "question": "Who is popularly referred to as 'Maradona' in Nigeria?",
+            "opt": [
+                {"option" : "Ibrahim Babangida"},
+                {"option" : "Sholagbade Malik"},
+                {"option" : "Sanni Abacha"},
+                {"option" : "Nnamdi Azikwe"}
+            ],
+            "check": 1
+        },
+        {
+            "question": "What is the capital of Kwara State?",
+            "opt": [
+                {"option" : "Ilorin"},
+                {"option" : "Jos"},
+                {"option" : "Yola"},
+                {"option" : "Sango-Ota"}
+            ],
+            "check": 1
+        },
+        {
+            "question": "What state is President Olusegun Obasanjo from?",
+            "opt": [
+                {"option" : "Lagos State"},
+                {"option" : "Ogun State"},
+                {"option" : "Kebbi State"},
+                {"option" : "Jigawa State"}
+            ],
+            "check": 2
+        },
+        {
+            "question": "Where is Abubakar Tafawa Balewa University?",
+            "opt": [
+                {"option" : "Jigawa State"},
+                {"option" : "Nassarawa State"},
+                {"option" : "F C T"},
+                {"option" : "Bauchi State"}
+            ],
+            "check": 4
+        }
+    ]
+}
