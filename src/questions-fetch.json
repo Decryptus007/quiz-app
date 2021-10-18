@@ -210,6 +210,106 @@
                 {"option" : "Bauchi State"}
             ],
             "check": 4
+        },
+        {
+            "question": "What year was the very first model of the iPhone released?",
+            "opt": [
+                {"option" : "2007"},
+                {"option" : "2010"},
+                {"option" : "2006"},
+                {"option" : "1996"}
+            ],
+            "check": 1
+        },
+        {
+            "question": "What’s the shortcut for the “copy” function on most computers?",
+            "opt": [
+                {"option" : "ctrl d"},
+                {"option" : "ctrl c"},
+                {"option" : "ctrl o"},
+                {"option" : "prt sc"}
+            ],
+            "check": 2
+        },
+        {
+            "question": "What is often seen as the smallest unit of memory?",
+            "opt": [
+                {"option" : "Terabyte"},
+                {"option" : "Megatron"},
+                {"option" : "Kilobyte"},
+                {"option" : "Gigabyte"}
+            ],
+            "check": 3
+        },
+        {
+            "question": "Is Java a type of OS?",
+            "opt": [
+                {"option" : "Ask Google"},
+                {"option" : "Probably"},
+                {"option" : "Yes"},
+                {"option" : "No"}
+            ],
+            "check": 4
+        },
+        {
+            "question": "Who is often called the father of the computer?",
+            "opt": [
+                {"option" : "Charles Babbage"},
+                {"option" : "Your Papa"},
+                {"option" : "Abdulkareem Rukayat"},
+                {"option" : "Mark Zuckerberg"}
+            ],
+            "check": 1
+        },
+        {
+            "question": "What does “HTTP” stand for?",
+            "opt": [
+                {"option" : "Hell Torv Tem Port"},
+                {"option" : "HyperText Transfer Protocol"},
+                {"option" : "Abiodun Bayzwise"},
+                {"option" : "Hover Text Type Password"}
+            ],
+            "check": 2
+        },
+        {
+            "question": "Which email service is owned by Microsoft?",
+            "opt": [
+                {"option" : "YahooMail!"},
+                {"option" : "Gmail"},
+                {"option" : "Hotmail"},
+                {"option" : "DuckDuckGo"}
+            ],
+            "check": 3
+        },
+        {
+            "question": "Google Chrome, Safari, Firefox, and Explorer are different types of what?",
+            "opt": [
+                {"option" : "CashApps"},
+                {"option" : "Zelle Accounts"},
+                {"option" : "Developers"},
+                {"option" : "Web browsers"}
+            ],
+            "check": 4
+        },
+        {
+            "question": "What is the name of the man who launched eBay back in 1995?",
+            "opt": [
+                {"option" : "Pierre Omidyar"},
+                {"option" : "Adepeju Kaosarat"},
+                {"option" : "Jeff Bezoz"},
+                {"option" : "Anuoluwapo aya John"}
+            ],
+            "check": 1
+        },
+        {
+            "question": "What was Twitter’s original name?",
+            "opt": [
+                {"option" : "twitter"},
+                {"option" : "twttr"},
+                {"option" : "twittr"},
+                {"option" : "Crowwe"}
+            ],
+            "check": 2
         }
     ]
 }

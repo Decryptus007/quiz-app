@@ -47,7 +47,8 @@ export default function Counter ({ log, count }) {
     if (show) {
       sh = <Modal>
               <h3>Trivial Questions</h3>
-              <h5>You will be given 200secs to answer 15 questions</h5>
+              <h4>You will be given 15 questions to answer within 200secs</h4>
+              <h5>Press Start to continue</h5>
               <button onClick={handleStart}>START</button>
            </Modal>
     }
@@ -56,16 +57,6 @@ export default function Counter ({ log, count }) {
       <div className="counters">
           <h3 className="counter" >
               {twoDigits(secondsToDisplay)}sec</h3>
-          {/* <button onClick={handleStart} type="button">
-              Start
-          </button>
-          <button onClick={handleStop} type="button">
-              Stop
-          </button>
-          <button onClick={handleReset} type="button">
-              Reset
-          </button>
-          <h4>Status: {status}</h4> */}
           {sh}
       </div>
   )

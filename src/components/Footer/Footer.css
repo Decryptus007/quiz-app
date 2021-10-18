@@ -18,6 +18,21 @@
     border-radius: 1.2rem;
 }
 
-.footer a {
+.footer h4 a {
+    background-color: tomato;
     text-decoration: none;
+    animation: dance;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dance {
+    from {
+        padding: 0.5rem;
+        box-shadow: 2px 2px 8px black;
+    }
+    to {
+        padding: 0.2rem;
+        box-shadow: 2px 2px 3px black;
+    }
 }

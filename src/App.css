@@ -11,9 +11,15 @@
 }
 
 .counters {
-  color: wheat;
+  color: white;
   position: fixed;
-  background-color: #3f054b;
+  background-color: #4daf0cb0;
+  border-radius: 0 2rem 2rem 0;
+  padding: 0.5rem 1rem;
+}
+
+.counters h3 {
+  text-shadow: 1px 1px 3px black;
 }
 
 /* Option Styles */

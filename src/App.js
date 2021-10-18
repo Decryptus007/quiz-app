@@ -85,6 +85,7 @@ export default function App () {
   if (modale) {
     modalWindow = <Modal>
                         <h3>Time's Up</h3>
+                        <h4>You Lose</h4>
                         <h5>Press Refresh to start again</h5>
                         <button onClick={refreshPage}>Refresh</button>
                   </Modal>
