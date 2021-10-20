@@ -36,8 +36,9 @@ export default function App () {
     .finally (() => {
       setLoading(false)
     })
+    console.log("useEffect rendering");
 
-  }, [next, dupl])
+  }, [dupl])
 
   if(loading) return <div className="loader">Loading...</div>
   if(error) return <div className="loader">Loading...</div>
